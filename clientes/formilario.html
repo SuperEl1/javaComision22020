@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/staly.css">
+</head>
+<body>
+   
+    <h1>-----------form get-------------</h1>
+    <p>formulario de permiso de viaje</p>
+    <form action="viajes/procesarsolviaje.html" method="Get">
+        <label for="non">
+            nombre</label>
+         <input type="text" name="nombre"id="non" placeholder="ingrese su nombre"required >
+<br><br>
+         <label for="ape">apellido:</label>
+         <input type="text"name="apellido"id="ape"placeholder="ingrese su apellido" required>
+         <br><br>
+         <label for="pss">contraseña</label>
+         <input type="password" name="pass"id="pas"required >
+         <br><br>
+         <label for="fechaviaje">fecha de viaje</label>
+         <input type="date" name="fechaviaje" id="fechaviaje">
+         <br><br>
+         <label for="obser">observaciones</label>
+         <br>
+         <textarea name="observaciones" id="obser" cols="30" rows="10"></textarea>
+         <br>
+         <label for="prov">¿a que provincia viajara?</label>
+         <br>
+         <select name="provincia" id="PROV">
+            <option aria-placeholder=""default hidden>selecione una provincia</option>
+             <option value=""> Mendoza</option>
+             <option value="">Buenos Aires</option>
+             <option value="1">JUJUY</option>
+             <option value="2">BARILOCHE</option>
+             <option value="3">CORDOBA</option>
+             <option value="4">SALTA</option>
+             <option value="5">BERNAL</option>
+             <option value="6">RIO</option>
+
+         </select>
+         <br>
+         <label for="mes">¿ en que mes desea viajar?</label>
+         <br>
+         <input type="radio"name="mes"value="1">enero
+         <br>
+         <input type="radio"name="mes"value="2">febrero
+         <br>
+         <input type="radio" name="mes" value="3">marzo
+         <br>
+         <input type="radio" name="mes" value="4">abril
+         <br>
+         <input type="radio" name="mes" value="5">mayo
+         <br>
+         <input type="radio" name="mes" value="6">junio
+         <br>
+         <input type="radio" name="mes" value="7">julio
+         <br>
+         <input type="radio" name="mes" value="8">agosto
+         <br>
+         <input type="radio" name="mes" value="9">septiembre
+         <br>
+         <input type="radio" name="mes" value="10">optubre
+         <br>
+         <input type="radio" name="mes" value="11">noviembre
+         <br>
+         <input type="radio" name="mes" value="12">diciembre
+
+         <br><br>
+         <label for="">¿que mascotas llevas?</label>
+         <br>
+         <input type="checkbox" name="mascota1" value="1">pero
+         <br>
+         <input type="checkbox" name="mascota2" value="2">gato
+         <br>
+         <input type="checkbox" name="mascota3" value="3">pajaro
+         <br><br>
+         <label for="codigo postal">codigo postal</label>
+         <input type="text"id ="codigo postal" name="codigo postal"pattern=".{4}"title="ingrese 4 caracteres" required>
+
+         <br><br>
+          <input type="submit"value="enviar"> 
+          <input type ="reset" value="limpiar">
+    </form>
+
+    <h1>-----------form post-------------</h1>
+
+    <p>formulario de permiso de viaje</p>
+    <form action="https://formspree.io/f/mlezalbr" method="post">
+        <label for="non">
+            nombre</label>
+         <input type="text" name="nombre"id="non" placeholder="ingrese su nombre"required >
+<br><br>
+         <label for="ape">apellido:</label>
+         <input type="text"name="apellido"id="ape"placeholder="ingrese su apellido" required>
+         <br><br>
+         <label for="pss">contraseña</label>
+         <input type="password" name="pass"id="pas"required >
+         <br><br>
+         <label for="fechaviaje">fecha de viaje</label>
+         <input type="date" name="fechaviaje" id="fechaviaje">
+         <br><br>
+         <label for="obser">observaciones</label>
+         <br>
+         <textarea name="observaciones" id="obser" cols="30" rows="10"></textarea>
+         <br>
+         <label for="prov">¿a que provincia viajara?</label>
+         <br>
+         <select name="provincia" id="PROV">
+            <option aria-placeholder=""default hidden>selecione una provincia</option>
+             <option value=""> Mendoza</option>
+             <option value="">Buenos Aires</option>
+             <option value="1">JUJUY</option>
+             <option value="2">BARILOCHE</option>
+             <option value="3">CORDOBA</option>
+             <option value="4">SALTA</option>
+             <option value="5">BERNAL</option>
+             <option value="6">RIO</option>
+
+         </select>
+         <br>
+         <label for="mes">¿ en que mes desea viajar?</label>
+         <br>
+         <input type="radio"name="mes"value="1">enero
+         <br>
+         <input type="radio"name="mes"value="2">febrero
+         <br>
+         <input type="radio" name="mes" value="3">marzo
+         <br>
+         <input type="radio" name="mes" value="4">abril
+         <br>
+         <input type="radio" name="mes" value="5">mayo
+         <br>
+         <input type="radio" name="mes" value="6">junio
+         <br>
+         <input type="radio" name="mes" value="7">julio
+         <br>
+         <input type="radio" name="mes" value="8">agosto
+         <br>
+         <input type="radio" name="mes" value="9">septiembre
+         <br>
+         <input type="radio" name="mes" value="10">optubre
+         <br>
+         <input type="radio" name="mes" value="11">noviembre
+         <br>
+         <input type="radio" name="mes" value="12">diciembre
+
+         <br><br>
+         <label for="">¿que mascotas llevas?</label>
+         <br>
+         <input type="checkbox" name="mascota1" value="1">pero
+         <br>
+         <input type="checkbox" name="mascota2" value="2">gato
+         <br>
+         <input type="checkbox" name="mascota3" value="3">pajaro
+         <br><br>
+         <label for="codigo postal">codigo postal</label>
+         <input type="text"id ="codigo postal" name="codigo postal"pattern=".{4}"title="ingrese 4 caracteres" required>
+
+         <br><br>
+          <input type="submit"value="enviar"> 
+          <input type ="reset" value="limpiar">
+    
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+ {
+   margin: 0px; 
+   padding: 0px;
+   font-size: 14px;
+
+}
+.caja1 {
+    display:inline-block;
+    width: auto;
+    height: 50px;
+    background-color:rgb(226, 226, 20);
+    margin: .4rem;
+    padding: 1rem;
+    border: 1.5px solid;
+    border-radius: 1rem;
+
+
+
+}
